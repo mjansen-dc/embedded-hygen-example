@@ -1,0 +1,17 @@
+{
+  "name": "embedded-hygen-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mjansen-dc/embedded-hygen-example.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "generate": "node ./lib/bin.js",
+    "clean": "rimraf ./lib ./.tmp"
+  },
+  "dependencies": {
+    "hygen": "^6.1.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.4"
+  }
+}
