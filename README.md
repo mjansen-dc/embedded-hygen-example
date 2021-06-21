@@ -23,4 +23,4 @@ You'll see that on top of scaffolding the base structure of the project, it scaf
 ### Caveats
 As mentioned in the intro its not perfect. For example when you trigger an error by calling a generator that doesn't exist, hygen will still reference the `init self` generators, which don't exist anymore because we overrode the defaultTemplates from hygen.
 
-To get around this you could potentially embed these into your own project as well for full feature parity with the only addition being more default templates alongside the `init self` ones provided by hygen (perhaps a build step that copies them from `node_modules/hygen/src/templates` to your own default templates directory?). You're essentially just extending hygen with more templates this way.
+To get around this you could potentially embed these into your own project as well for full feature parity with the only addition being more default templates alongside the `init self` ones provided by hygen (perhaps a build step that copies them from `node_modules/hygen/src/templates` to your own default templates directory?). You're essentially just extending hygen with more built in templates this way.
