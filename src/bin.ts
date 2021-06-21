@@ -7,7 +7,7 @@ const defaultTemplates = path.join(__dirname, '../_templates');
 
 runner(process.argv.slice(2), {
   templates: defaultTemplates,
-  cwd: process.cwd(),
+  cwd: path.join(process.cwd(), '.tmp'), // Should just be process.cwd(), the tmp folder is for testing purposes
   logger: new Logger(console.log.bind(console)),
   debug: !!process.env.DEBUG,
   exec: (action, body) => {

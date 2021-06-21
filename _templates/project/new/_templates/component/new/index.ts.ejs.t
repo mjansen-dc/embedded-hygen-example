@@ -1,5 +1,5 @@
 ---
-to: .tmp/_templates/component/new/index.ts.ejs.t
+to: _templates/component/new/index.ts.ejs.t
 ---
 ---
 to: src/components/<%%= h.changeCase.pascal(name) %%>/index.ts

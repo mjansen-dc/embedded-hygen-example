@@ -1,5 +1,5 @@
 ---
-to: .tmp/_templates/component/new/prompt.js
+to: _templates/component/new/prompt.js
 ---
 module.exports = [
   {

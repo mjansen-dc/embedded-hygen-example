@@ -1,5 +1,5 @@
 ---
-to: .tmp/package.json
+to: package.json
 ---
 {
   "name": "<%= h.changeCase.param(name) %>",
